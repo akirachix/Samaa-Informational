@@ -1,4 +1,4 @@
-import './Mision.css';
+import './index.css';
 const Mission=()=>{
   return(
              <div className='textbox'>

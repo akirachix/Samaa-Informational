@@ -7,9 +7,10 @@ import Kur from   '../images/Kur.png'
 import './index.css';
 const Team = () => {
     return(
-      
+      <>
+      <h1 id="team-title">Our Team</h1>
 <div id="team">
-  <div><h1 id="team-title">Our Team</h1></div>  
+ 
 <div id="team-photos">
         <div>
      <figure id="team-figcap">
@@ -55,6 +56,8 @@ const Team = () => {
      </div>
 </div>
 </div>
+      </>
+
     )
 }
 export default Team;

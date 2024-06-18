@@ -1,11 +1,13 @@
-
-
+import Services from "./services";
 import Vision from "./vision";
-function App(){
-  return(
+import Landingpage from "./Landingpage";
+function App() {
+  return (
     <div>
-      <Vision/>
+      <Landingpage/>
+      <Services />
+      <Vision />
     </div>
-  )
+  );
 }
 export default App;

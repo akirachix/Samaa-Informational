@@ -1,10 +1,14 @@
 
 
+import Mission from "./mission";
 import Vision from "./vision";
+
+
 function App(){
   return(
     <div>
-      <Vision/>
+      <Mission/>
+
     </div>
   )
 }

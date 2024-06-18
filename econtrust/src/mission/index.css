@@ -5,19 +5,16 @@
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
     padding: 90px;
-    margin-left: 8%;
+    margin-left: 2%;
     max-width: 800px;
     transition: box-shadow 0.3s ease;
-    background-color: #015B5B
-    ;
+    background-color: #015B5B;
     color: white;
     font-size: x-large;
  }
  
  .textbox{
-     /* padding-left: 375px;
-     padding-right: 375px; 
-       */
+
        margin-left: 15%;
  }
  
@@ -26,48 +23,232 @@
  }
  
  
- @media screen and (min-width:375px)and(max-width: 600px) {
-     .mission-text{
-         margin-left: 30px;
-         width: 20px;
- 
+.text {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 90px;
+    margin-left: 9%;
+    max-width: 800px;
+   
+}
+
+.textbox {
+    margin-left: 15%;
+}
+
+.mission-text {
+    margin-left: 35%;
+}
+
+@media (max-width: 599px) {
+   .text {
+        padding: 60px;
+        font-size: large; 
+        margin-left:-45px ;
+    }
+
+   .textbox {
+        margin-left: 10%;
+    }
+
+   .mission-text {
+        margin-left: 30%; 
+    }
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
+   .text {
+        padding: 80px; 
+        font-size: x-large; 
+        width: 180px;
+        margin-left: 4px;
+    }
+
+   .textbox {
+        margin-left: 15px;
+    }
+
+   .mission-text {
+        margin-left:80px;
+    }
+}
+
+
+@media (min-width: 820px) and (max-width: 1370px) {
+    .text {
+        padding: 80px; 
+        font-size: x-large; 
+        width: 600px;
+        margin-left: 0px;
         
-     }
- 
-     .text{
-         margin-left: 0px;
-         border-radius: 20px;
-         box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
-         padding: 0px;
-         margin-left: 0%;
-         max-width: 100px;
-         transition: box-shadow 0.s ease;
-         font-size: small;
-     }
-     .textbox{
-         /* padding-left: 375px;
-         padding-right: 375px; 
-           */
-           margin-left: 19%;
-     }
- 
- 
- 
- }
- 
- 
- /* @media screen and (min-width:412px)and(max-width: 950px) {
-     .text{
-  
- 
-         margin-left: 0%;
-         max-width: 500px;
-         margin-right: 40px;
-         background-color: #015B5B;
-         font-size: x-large;
-      }
-      
- } */
- 
- 
- 
+    }
+
+}
+
+
+
+@media (min-width: 540px) and (max-width: 720px) {
+
+.text {
+        padding: 80px; 
+        font-size: x-large; 
+        width: 300px;
+        margin-left: 30px;
+        
+    }
+
+
+    .mission-text {
+        margin-left:155px;
+    }
+
+}
+
+@media (min-width: 280px) and (max-width: 653px) {
+    .text {
+        padding: 65px; 
+        font-size: large; 
+        width: 110px;
+        margin-left: 0px;
+        
+    }
+
+    .mission-text {
+        margin-left:28px;
+    }
+}
+
+
+@media (min-width: 412px) and (max-width: 914px) {
+    .text {
+        padding: 60px; 
+        font-size: x-large; 
+        width: 200px;
+        margin-left: 30px;
+        
+    }
+
+    .mission-text {
+        margin-left:86px;
+    }
+
+    
+}
+
+
+@media (min-width: 800px) and (max-width: 1280px) {
+    .text {
+        padding: 60px; 
+        font-size: x-large; 
+        width: 670px;
+        margin-left: 60px;
+        
+    }
+
+    
+
+}
+
+
+@media (min-width: 375px) and (max-width: 667px) {
+    .text {
+        padding: 60px; 
+        font-size: x-large; 
+        width: 163px;
+        margin-left: 30px;
+        
+    }
+
+
+    .mission-text {
+        margin-left:80px;
+    }
+}
+
+
+@media (min-width: 390px) and (max-width: 896px) {
+    .text {
+        padding: 60px; 
+        font-size: x-large; 
+        width: 163px;
+        margin-left: 45px;
+        
+    }
+}
+
+
+@media (min-width: 360px) and (max-width: 740px) {
+    .text {
+        padding: 60px; 
+        font-size: x-large; 
+        width: 163px;
+        margin-left: 4px;
+        
+    }
+
+    .mission-text {
+        margin-left:50px;
+    } 
+
+}
+
+@media (min-width: 412px) and (max-width: 950px) {
+    .text {
+        padding: 60px; 
+        font-size: x-large; 
+        width: 175px;
+        margin-left: 38px;
+        
+    }
+
+    .mission-text {
+        margin-left:80px;
+    } 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .text {
+        padding: 60px; 
+        font-size: x-large; 
+        width: 400px;
+        margin-left: 15px;
+        
+    }
+
+
+    .mission-text {
+        margin-left:170px;
+    } 
+
+}
+
+
+@media (min-width: 912px) and (max-width: 1368px) {
+
+ .text {
+        padding: 60px; 
+        font-size: 2pc; 
+        width: 600px;
+        margin-left: 0px;
+        
+    }
+
+    .mission-text {
+        margin-left:220px;
+    } 
+}
+
+
+@media (min-width: 540px) and (max-width: 720px) {
+    .text {
+        padding: 60px; 
+        font-size: 1pc; 
+        width: 400px;
+        margin-left: 0px;
+        
+    }
+
+    .mission-text {
+        margin-left:150px;
+    } 
+}

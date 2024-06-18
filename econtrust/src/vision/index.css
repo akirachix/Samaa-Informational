@@ -1,27 +1,47 @@
-#vision{
+/* Existing styles */
+#vision {
     border: 1px solid #ddd;
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+    box-shadow: 0 4px 8px rgba(20, 14, 14, 0.5); 
     padding: 90px;
     margin-left: 24%;
     max-width: 800px;
     transition: box-shadow 0.3s ease;
-    background-color: #006261;
+    background-color: #2A88BD;
     color: #ddd;
-    font-size: x-large;
+    font-size: x-large; 
 }
-#ourvision{
-   text-align: center;
+
+#ourvision {
+    text-align: center;
 }
-@media screen and (min-width:375px) and(max-width:667px) {
-    #vision{
-        padding: 50px;
-        margin-left: 10%;
-        margin-right: 20px;
-        max-width: 400px;
-        font-size: small;
+
+
+@media (max-width: 767px) {
+    #vision {
+        padding: 20px; 
+        margin-left: 7%; 
+        max-width: 78%; 
+        font-size: large; 
     }
-    #ourvision{
-      justify-self: start;
-     }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #vision {
+        padding: 60px; 
+        margin-left: 7%; 
+        max-width: 72%; 
+        font-size: xx-large; 
+    }
+}
+
+
+@media (min-width: 1025px) {
+    #vision {
+        padding: 90px; 
+        margin-left: 0%; 
+        max-width: 800px; 
+        font-size: x-large; 
+    }
 }

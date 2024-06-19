@@ -6,11 +6,11 @@
     box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
     padding: 90px;
     margin-left: 2%;
-    max-width: 800px;
+    max-width: 700px;
     transition: box-shadow 0.3s ease;
     background-color: #015B5B;
     color: white;
-    font-size: x-large;
+    font-size: 24px;
  }
  
  .textbox{

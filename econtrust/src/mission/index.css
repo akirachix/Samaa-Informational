@@ -5,7 +5,7 @@
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
     padding: 90px;
-    margin-left: 2%;
+    margin-left: 15%;
     max-width: 700px;
     transition: box-shadow 0.3s ease;
     background-color: #015B5B;
@@ -21,6 +21,8 @@
  .mission-text{
      margin-left: 35%;
  }
+
+
  
  
 .text {
@@ -65,11 +67,21 @@
     }
 
    .textbox {
-        margin-left: 15px;
+        margin-left: 20px;
     }
 
    .mission-text {
         margin-left:80px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+    .text{
+        margin-left: 4px;
+    }
+
+    .textbox{
+        margin-left: 34px;
     }
 }
 
@@ -84,6 +96,44 @@
     }
 
 }
+
+
+@media (min-width: 414px) and (max-width: 896px) {
+    
+    .textbox {
+        margin-left: 70px;
+    }
+     
+
+    .textbox{
+        
+    }
+
+    .text {
+        padding: 80px; 
+        font-size: x-large; 
+        width: 600px;
+    
+        
+    }
+}
+
+@media (min-width: 414px) and (max-width: 896px) {
+    .textbox{
+        margin-left: -5px;
+    }
+
+    .text{
+        margin-left: -20px;
+    }
+    
+    
+}
+
+
+
+
+
 
 
 
@@ -109,7 +159,8 @@
         padding: 65px; 
         font-size: large; 
         width: 110px;
-        margin-left: 0px;
+        margin-left: -4%;
+      
         
     }
 
@@ -118,14 +169,27 @@
     }
 }
 
+@media (min-width: 412px) and (max-width: 896px) {
+    .textbox {
+        margin-left: -10px;
+    }
+
+    
+
+
+}
 
 @media (min-width: 412px) and (max-width: 914px) {
     .text {
         padding: 60px; 
         font-size: x-large; 
         width: 200px;
-        margin-left: 30px;
+        margin-left: 34px;
         
+    }
+
+    .textbox {
+        margin-left: 15px;
     }
 
     .mission-text {
@@ -141,11 +205,19 @@
         padding: 60px; 
         font-size: x-large; 
         width: 670px;
-        margin-left: 60px;
+        margin-left: 160px;
         
     }
 
     
+
+}
+
+@media (min-width: 800px) and (max-width: 1280px) {
+    .textbox {
+        margin-left: 320px;
+    }
+
 
 }
 
@@ -155,7 +227,7 @@
         padding: 60px; 
         font-size: x-large; 
         width: 163px;
-        margin-left: 30px;
+        margin-left: 50px;
         
     }
 
@@ -165,24 +237,55 @@
     }
 }
 
+@media (min-width: 600px) and (max-width: 1024px) {
+    .text{
+        margin-left: 5%;
+    }
+
+    
+
+
+    .textbox {
+        margin-left: 183px;
+    }
+
+}
+
+@media (min-width:375) and (max-width:667) {
+    .text{
+        margin-left: 40%;
+        text-align: center;
+    }
+    
+}
+
 
 @media (min-width: 390px) and (max-width: 896px) {
     .text {
         padding: 60px; 
         font-size: x-large; 
         width: 163px;
-        margin-left: 45px;
+        margin-left: 100px;
         
+    }
+
+    .textbox {
+        margin-left: 49px;
     }
 }
 
+@media (min-width: 390px) and (max-width: 844px) {
+    .text{
+       margin-left:  5%; 
+    }
+}
 
 @media (min-width: 360px) and (max-width: 740px) {
     .text {
         padding: 60px; 
         font-size: x-large; 
         width: 163px;
-        margin-left: 4px;
+        margin-left: 1px;
         
     }
 
@@ -197,12 +300,12 @@
         padding: 60px; 
         font-size: x-large; 
         width: 175px;
-        margin-left: 38px;
+        margin-left: 45px;
         
     }
 
     .mission-text {
-        margin-left:80px;
+        margin-left:94px;
     } 
 }
 
@@ -214,6 +317,8 @@
         margin-left: 15px;
         
     }
+
+    
 
 
     .mission-text {
@@ -229,7 +334,7 @@
         padding: 60px; 
         font-size: 2pc; 
         width: 600px;
-        margin-left: 0px;
+        margin-left: -39px;
         
     }
 
@@ -244,7 +349,7 @@
         padding: 60px; 
         font-size: 1pc; 
         width: 400px;
-        margin-left: 0px;
+        margin-left: -6px;
         
     }
 

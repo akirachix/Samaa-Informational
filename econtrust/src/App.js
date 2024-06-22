@@ -1,10 +1,12 @@
 
-
-import Vision from "./vision";
+import About from "./About";
+import Abouts from "./abt";
 function App(){
   return(
     <div>
-      <Vision/>
+      <About/>
+      <Abouts/>
+
     </div>
   )
 }

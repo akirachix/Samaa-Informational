@@ -1,5 +1,5 @@
 import './index.css';
-function About(){
+function Abouts(){
     return(
         <>
        <div>
@@ -14,4 +14,4 @@ function About(){
         </>
     )
 }
-export default About;
+export default Abouts;

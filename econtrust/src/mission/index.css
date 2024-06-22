@@ -316,6 +316,15 @@
 
 }
 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .textbox{
+        margin-left: 55px;
+    }
+
+}
+
+
 @media (min-width: 820px) and (max-width: 1180px) {
 
     .textbox{

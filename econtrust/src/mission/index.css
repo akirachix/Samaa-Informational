@@ -295,6 +295,20 @@
 
 }
 
+
+@media (min-width: 414px) and (max-width: 896px) {
+    .text{
+        
+        
+    }
+
+    .textbox{
+        margin-left: 15.6px;
+    }
+
+}
+
+
 @media (min-width: 412px) and (max-width: 950px) {
     .text {
         padding: 60px; 

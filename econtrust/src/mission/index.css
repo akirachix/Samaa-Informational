@@ -450,9 +450,6 @@
 @media (min-width:820px) and (max-width: 1180px){
     .textpara{
         border: 1px solid #ddd;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
-        padding: 90px;
         margin-left: -24%;
         margin-right: 90px;
         max-width: 700px;
@@ -463,6 +460,21 @@
         margin-left: 80px;
      }
     
+
+}
+
+@media (min-width:768px) and (max-width: 1024px){
+    .textpara{
+        border: 1px solid #ddd;
+        margin-left: -24%;
+        margin-right: 100px;
+        max-width: 700px;
+        
+     }
+
+     .mission-text{
+        margin-left: 40px;
+     }
 
 }
 

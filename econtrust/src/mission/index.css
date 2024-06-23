@@ -336,3 +336,38 @@
 
 }
 
+@media (min-width:375px) and (max-width: 667px){
+
+
+ .textpara{
+    border: 1px ;
+    padding: 70px;
+    margin-left: 17%;
+    max-width: 200px;
+    transition: box-shadow 0.3s ease;
+    background-color: #015B5B;
+    color: white;
+    font-size: 24px;
+
+ }
+
+
+}
+
+
+@media (min-width:600px) and (max-width: 1024px){
+    .textpara{
+        border: 1px ;
+        padding: 90px;
+        margin-left: -9%;
+        max-width: 500px;
+      
+    
+     }
+
+     .mission-text{
+        margin-left: 170px;
+     }
+
+}
+

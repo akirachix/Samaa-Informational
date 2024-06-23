@@ -371,3 +371,37 @@
 
 }
 
+@media (min-width:412px) and (max-width: 914px){
+    .textpara{
+        border: 1px solid #ddd;
+        padding: 90px;
+        margin-left: 18%;
+        max-width: 700px;
+    
+     }
+
+
+     .mission-text{
+        margin-left: 160px;
+     }
+}
+
+@media (min-width:390px) and (max-width: 884px){
+    .textpara{
+        border: 1px ;
+        padding: 70px;
+        margin-left: 15%;
+        max-width: 300px;
+        margin-right: 11.5px;
+        transition: box-shadow 0.3s ease;
+        background-color: #015B5B;
+        color: white;
+        font-size: 24px;
+    
+     }
+    
+
+}
+
+
+

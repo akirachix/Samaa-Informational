@@ -234,7 +234,7 @@
         padding: 60px; 
         font-size: x-large; 
         width: 163px;
-        margin-left: 50px;
+        margin-left: 60px;
         
     }
 
@@ -244,19 +244,18 @@
     }
 }
 
-@media (min-width: 600px) and (max-width: 1024px) {
+
+@media (min-width:600px) and (max-width:1024px) {
+
+    .textbox{
+        margin-left: 40px;
+    }
+
     .text{
-        margin-left: 5%;
+        margin-left: 40px;
     }
-
-    
-
-
-    .textbox {
-        margin-left: 183px;
-    }
-
 }
+
 
 @media (min-width:375) and (max-width:667) {
     .text{
@@ -292,7 +291,7 @@
         padding: 60px; 
         font-size: x-large; 
         width: 163px;
-        margin-left: 1px;
+        margin-left: -2px;
         
     }
 

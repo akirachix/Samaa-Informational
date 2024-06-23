@@ -1,11 +1,11 @@
 
 import About from "./About";
-import Abouts from "./abt";
+// import Abouts from "./abt";
 function App(){
   return(
     <div>
       <About/>
-      <Abouts/>
+      {/* <Abouts/> */}
 
     </div>
   )

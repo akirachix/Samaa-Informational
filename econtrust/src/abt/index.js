@@ -1,15 +1,20 @@
 import './index.css';
+
+import about from '../images/bta.jpg';
 function Abouts(){
     return(
         <>
        <div>
             <h1>About Us</h1>
             </div>
-            <div id="aboutus">
-            <p>EconTrust is a product developed by Samaa group,the
-                product is developed with a human centered approach thinking
-                to enable users to save and track their savings
-                and set goals on their saving </p>
+            <div id="abouted">
+            <pre>EconTrust is a product<br/> developed by Samaa group,<br/>the product is developed with a human<br/>
+                 centered approach thinking <br/>to enable users to save <br/>and track their savings<br/>
+                and set goals on their saving </pre>
+                <div>
+                    <img id='abt' src={about}/>
+        
+                </div>
         </div>
         </>
     )

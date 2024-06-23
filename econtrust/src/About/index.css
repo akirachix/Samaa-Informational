@@ -40,7 +40,7 @@ h1{
     #aboutus{
    padding: 30px;
    margin-left: 10%;
-   margin-right: 10%;
+   margin-right: 16%;
    font-size: 20px;
     }
     h1{
@@ -81,17 +81,7 @@ h1{
       margin-right: 4%;
     }
   }
-  @media screen and (max-width:1180px) {
-    #aboutus{
- text-align: center;
-   margin-left: 8%;
-   margin-right: 8%;
-   font-size: 26px;
-    }
-    h1{
-      margin-right: 4%;
-    }
-  }
+
    @media screen and (max-width:1366px) {
     #aboutus{
  text-align: center;
@@ -104,26 +94,25 @@ h1{
     }
   } 
 
-   /* @media screen and (max-width:1368px) {
-    #aboutus{
- text-align: center;
-   margin-left: 8%;
-   margin-right: 8%;
-   font-size: 36px;
-    }
-    h1{
-      margin-right: 4%;
-    }
-  }
 
-  @media screen and (min-width:800px) {
+ @media screen and (min-width:800px) and (max-width:1280px){
     #aboutus{
     padding: 30px; 
-    margin-left: 16%;
+    margin-left: 16.5%;
  margin-right: 10%;
    font-size: 38px;
     }
     h1{
       margin-right: 4%;
     }
-  }  */
+  }   
+
+ @media screen and (min-width:820px) and (max-width:1180px) {
+  #aboutus{
+    margin-left: 16%;
+    margin-right: 17%;
+  }
+  
+} 
+
+

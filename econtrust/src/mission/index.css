@@ -427,5 +427,44 @@
 
 }
 
+@media (min-width:412px) and (max-width: 915px){
+    .textpara{
+        border: 1px ;
+        padding: 70px;
+        margin-left: 13.5%;
+        max-width: 300px;
+        margin-right: 10.5px;
+        transition: box-shadow 0.3s ease;
+        background-color: #015B5B;
+        color: white;
+        font-size: 24px;
+    
+     }
+
+     .mission-text{
+        margin-left: 140px;
+     }
+
+}
+
+@media (min-width:820px) and (max-width: 1180px){
+    .textpara{
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+        padding: 90px;
+        margin-left: -24%;
+        margin-right: 90px;
+        max-width: 700px;
+        
+     }
+
+     .mission-text{
+        margin-left: 80px;
+     }
+    
+
+}
+
 
 

@@ -1,22 +1,23 @@
-.text{
- 
 
+ .textpara{
     border: 1px solid #ddd;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
     padding: 90px;
-    margin-left: 15%;
+    margin-left: 17%;
     max-width: 700px;
     transition: box-shadow 0.3s ease;
     background-color: #015B5B;
     color: white;
     font-size: 24px;
+
+ }
+
+ .mission-text{
+    margin-left: 50px;
+    
  }
  
- .textbox{
-
-       margin-left: 15%;
- }
  
  .mission-text{
      margin-left: 35%;
@@ -29,400 +30,309 @@
     border: 1px solid #ddd;
     border-radius: 20px;
     padding: 90px;
-    margin-left: 9%;
+    margin-left: 2%;
     max-width: 800px;
    
 }
 
-.textbox {
-    margin-left: 15%;
+.tbox {
+    margin-left: 10%;
 }
 
 .mission-text {
     margin-left: 35%;
 }
 
-@media (max-width: 599px) {
-   .text {
-        padding: 60px;
-        font-size: large; 
-        margin-left:-45px ;
-    }
 
-   .textbox {
-        margin-left: 10%;
-    }
-
-   .mission-text {
-        margin-left: 30%; 
-    }
-}
-
-@media (min-width: 375px) and (max-width: 600px) {
-   .text {
-        padding: 80px; 
-        font-size: x-large; 
-        width: 180px;
-        margin-left: 4px;
-    }
-
-   .textbox {
-        margin-left: 20px;
-    }
-
-   .mission-text {
-        margin-left:80px;
-    }
-}
-
-@media (min-width: 375px) and (max-width: 667px) {
-    .text{
-        margin-left: 4px;
-    }
-
-    .textbox{
-        margin-left: 34px;
-    }
-}
-
-
-/* @media (min-width: 820px) and (max-width: 1370px) {
-    .text {
-        padding: 80px; 
-        font-size: x-large; 
-        width: 600px;
-        margin-left: 0px;
-        
-    }
-
-} */
-
-
-@media (min-width: 414px) and (max-width: 896px) {
-    
-    .textbox {
-        margin-left: 70px;
-    }
+@media (min-width:375px) and (max-width: 667px){
      
-
-    .textbox{
-        
-    }
-
-    .text {
-        padding: 80px; 
-        font-size: x-large; 
-        width: 600px;
-    
-        
-    }
-}
-
-@media (min-width: 414px) and (max-width: 896px) {
-    .textbox{
-        margin-left: -5px;
-    }
-
-    .text{
-        margin-left: -20px;
-    }
-    
-    
-}
-
-
-
-@media screen and (min-width:820px) and (max-width: 1180px) {
-    .textbox{
-        margin-left: 70px;
-    }
-    .text{
-        margin-left: 70px;
-    }
-}
-
-
-
-
-@media (min-width: 540px) and (max-width: 720px) {
-
-.text {
-        padding: 80px; 
-        font-size: x-large; 
-        width: 300px;
-        margin-left: 30px;
-        
-    }
-
-
-    .mission-text {
-        margin-left:155px;
-    }
-
-}
-
-@media (min-width: 280px) and (max-width: 653px) {
-    .text {
-        padding: 65px; 
-        font-size: large; 
-        width: 110px;
-        margin-left: -4%;
-      
-        
-    }
-
-    .mission-text {
-        margin-left:28px;
-    }
-}
-
-@media (min-width: 412px) and (max-width: 896px) {
-    .textbox {
-        margin-left: -10px;
-    }
-
+ .textpara{
+    border: 1px  #ddd;
+    padding: 70px;
+    margin-left: 2%;
+    max-width: 180px;
+    margin-right: 0px;
     
 
+ }
+
+ .mission-text {
+    margin-left: 55%;
+}
 
 }
 
-@media (min-width: 412px) and (max-width: 914px) {
-    .text {
-        padding: 60px; 
-        font-size: x-large; 
-        width: 200px;
-        margin-left: 34px;
-        
-    }
-
-    .textbox {
-        margin-left: 15px;
-    }
-
-    .mission-text {
-        margin-left:86px;
-    }
-
+@media (min-width:414px) and (max-width: 896px){
+    .textpara{
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+        padding: 90px;
+        margin-left: 17%;
+        max-width: 700px;
+        transition: box-shadow 0.3s ease;
+        background-color: #015B5B;
+        color: white;
+        font-size: 24px;
     
+     }
 }
 
 
-@media (min-width: 800px) and (max-width: 1280px) {
-    .text {
-        padding: 60px; 
-        font-size: x-large; 
-        width: 670px;
-        margin-left: 160px;
-        
-    }
 
+@media (min-width:390px) and (max-width: 884px){
+
+    .textpara{
+        border: 1px ;
+        padding: 80px;
+        margin-left: 15%;
+        max-width: 180px;
+        transition: box-shadow 0.3s ease;
+        background-color: #015B5B;
+        color: white;
+        font-size: 24px;
     
+     }
 
 }
 
-@media (min-width: 800px) and (max-width: 1280px) {
-    .textbox {
-        margin-left: 320px;
-    }
+@media (min-width:393px) and (max-width: 851px){
+    .textpara{
+        border: 1px ;
+        padding: 70px;
+        margin-left: 10%;
+        max-width: 200px;
+        transition: box-shadow 0.3s ease;
+        background-color: #015B5B;
+        color: white;
+        font-size: 24px;
+    
+     }
+}
 
+
+@media (min-width:360px) and (max-width: 740px){
+    .textpara{
+        border: 1px ;
+        padding: 80px;
+        margin-left: 15%;
+        max-width: 150px;
+        transition: box-shadow 0.3s ease;
+        background-color: #015B5B;
+        color: white;
+        font-size: 24px;
+    
+     }
+   
 
 }
 
 
-@media (min-width: 375px) and (max-width: 667px) {
-    .text {
-        padding: 60px; 
-        font-size: x-large; 
-        width: 163px;
+@media (min-width:820px) and (max-width: 1180px){
+    .textpara{
+        border: 1px ;
+        padding: 70px;
+        margin-left: 10%;
+        max-width: 900px;
+        
+     }
+
+     .tbox{
+        margin-left: 180px;
+        max-width: 900px;
+
+     }
+
+     .mission-text{
+        margin-left: 20px;
+     }
+}
+
+
+
+@media (min-width:768px) and (max-width: 1024px){
+    .textpara{
+        border: 1px ;
+        padding: 70px;
+        margin-left: 10%;
+        max-width: 900px;
+        
+     }
+
+     .tbox{
+        margin-left: 230px;
+        max-width: 900px;
+
+     }
+
+     .mission-text{
+        margin-left: 50px;
+     }
+
+}
+
+@media (min-width:912px) and (max-width: 1368px){
+    .textpara{
+        border: 1px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+        padding: 70px;
+        margin-left: 15%;
+        max-width: 900px;
+        transition: box-shadow 0.3s ease;
+        background-color: #015B5B;
+        color: white;
+        font-size: 24px;
+    
+     }
+
+     .mission-text{
+        margin-left: 120px;
+     }
+
+
+}
+
+@media (min-width:768px) and (max-width: 1024px){
+    .textpara{
+        border: 1px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+        padding: 70px;
+        margin-left: 15%;
+        max-width: 900px;
+        transition: box-shadow 0.3s ease;
+        background-color: #015B5B;
+        color: white;
+        font-size: 24px;
+    
+     }
+
+     .mission-text{
         margin-left: 60px;
-        
-    }
+     }
 
 
-    .mission-text {
-        margin-left:80px;
-    }
 }
 
-
-@media (min-width:600px) and (max-width:1024px) {
-
-    .textbox{
-        margin-left: 40px;
+@media (min-width:280px) and (max-width: 653px){
+    .textpara{
+        margin-right: 0px;
+        margin-left: 60px;
     }
 
-    .text{
-        margin-left: 40px;
+    .tbox{
+        margin-right: 0.0px;
+        margin-left: -54px;
+
     }
+
+    .mission-text{
+        margin-left: 88px;
+       }
+
+
 }
 
-
-@media (min-width:375) and (max-width:667) {
-    .text{
-        margin-left: 40%;
-        text-align: center;
-    }
+@media (min-width:412px) and (max-width: 915px){
+    .textpara{
+        border: 1px ;
+        padding: 80px;
+        margin-left: 17%;
+        max-width: 150px;
+        transition: box-shadow 0.3s ease;
+        background-color: #015B5B;
+        color: white;
+        font-size: 24px;
     
-}
+     }
+    
 
-
-@media (min-width: 390px) and (max-width: 896px) {
-    .text {
-        padding: 60px; 
-        font-size: x-large; 
-        width: 163px;
-        margin-left: 100px;
-        
-    }
-
-    .textbox {
-        margin-left: 49px;
-    }
-}
-
-@media (min-width: 390px) and (max-width: 844px) {
-    .text{
-       margin-left:  5%; 
-    }
-}
-
-@media (min-width: 360px) and (max-width: 740px) {
-    .text {
-        padding: 60px; 
-        font-size: x-large; 
-        width: 163px;
-        margin-left: -2px;
-        
-    }
-
-    .mission-text {
-        margin-left:50px;
-    } 
 
 }
 
 
-@media (min-width: 414px) and (max-width: 896px) {
-    .text{
-        
-        
-    }
+@media (min-width:600px) and (max-width: 1024px){
+    .textpara{
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+        padding: 99.5px;
+        margin-left: 17%;
+        max-width: 217px;
+        transition: box-shadow 0.3s ease;
+        background-color: #015B5B;
+        color: white;
+        font-size: 24px;
+        margin-right: 35.4px;
+        margin-left: 90px;
 
-    .textbox{
-        margin-left: 15.6px;
-    }
+}
+}
+
+
+@media (min-width:800px) and (max-width: 1280px){
+    .textpara{
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+        padding: 99.5px;
+        margin-left: 17%;
+        max-width: 217px;
+        transition: box-shadow 0.3s ease;
+        background-color: #015B5B;
+        color: white;
+        font-size: 24px;
+        margin-right: 35.4px;
+        margin-left: 300px;
 
 }
 
-@media (min-width: 412px) and (max-width: 915px) {
+.mission-text{
+    margin-left: 420px;
+}
 
-    .textbox{
-        margin-left: 15.6px;
-    }
+
 
 }
 
-/* @media (min-width: 912px) and (max-width: 1368px) {
-   .textbox{
-    margin-left: 45px;
-   }
-   .text{
-    margin-left: 45px;
 
+@media (min-width:540px) and (max-width: 740px){
+    .textpara{
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+        padding: 90px;
+        margin-left: 17%;
+        max-width: 217px;
+        transition: box-shadow 0.3s ease;
+        background-color: #015B5B;
+        color: white;
+        font-size: 24px;
+    
+     }
 
-} */
-
-/* } */
-
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .textbox{
-        margin-left: 55px;
-    }
-
+     
     
 
 }
 
-
-@media (min-width: 820px) and (max-width: 1180px) {
-
-    .textbox{
-        margin-left: 75px;
-    }
-
-}
-
-
-
-
-@media (min-width: 412px) and (max-width: 950px) {
-    .text {
-        padding: 60px; 
-        font-size: x-large; 
-        width: 175px;
-        margin-left: 45px;
-        
-    }
-
-    .mission-text {
-        margin-left:94px;
-    } 
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .text {
-        padding: 60px; 
-        font-size: x-large; 
-        width: 400px;
-        margin-left: 15px;
-        
-    }
-
+@media (min-width:412px) and (max-width: 914px){
+    .textpara{
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+        padding: 90px;
+        margin-left: 17%;
+        max-width: 217px;
+        transition: box-shadow 0.3s ease;
+        background-color: #015B5B;
+        color: white;
+        font-size: 24px;
+        margin-right: 30.4px;
+        margin-left: 88px;
     
-
-
-    .mission-text {
-        margin-left:170px;
-    } 
+     }
 
 }
 
-
-@media (min-width: 912px) and (max-width: 1368px) {
-
- .text {
-        padding: 60px; 
-        font-size: 2pc; 
-        width: 600px;
-        margin-left: -39px;
-        
-    }
-
-    .mission-text {
-        margin-left:220px;
-    } 
-}
-
-
-@media (min-width: 540px) and (max-width: 720px) {
-    .text {
-        padding: 60px; 
-        font-size: 1pc; 
-        width: 400px;
-        margin-left: -6px;
-        
-    }
-
-    .mission-text {
-        margin-left:150px;
-    } 
-    @media (min-width: 600px) and (max-width: 1024px) {
-        .textbox{
-            margin-left: 35px;
-        }
-        
-
-    }
-
-}

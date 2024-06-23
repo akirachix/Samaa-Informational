@@ -1,9 +1,9 @@
 import './index.css';
 const Mission=()=>{
   return(
-             <div className='textbox'>
+             <div className='tbox'>
                <h1 className='mission-text'> Our Mission</h1>
-               <p className='text'>We aim to support Rwandan tea farmers by boosting their<br></br>
+               <p className='textpara'>We aim to support Rwandan tea farmers by boosting their<br></br>
                inancial strength through VSLAs.Our goals include<br></br>
                enhancing saety,streamlining paperwork,lowering <br></br>
               expenses,and offering digital ways to save by utilizing the <br></br>VSLAs strengths</p>

@@ -81,7 +81,7 @@
 
 @media screen and (max-width:1368px) {
     .textpara{
-        border: 1px solid #ddd;
+        border: 1px solid red;
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
         padding: 90px;
@@ -94,6 +94,23 @@
     
 
 }
+
+@media screen and (min-width:820px) and (max-width:1180px) {
+    .textpara{
+        border: 1px ;
+        /* position: absolute; */
+        padding: 90px;
+        padding-left: 20px;
+        margin-left: -17%;
+        max-width: 700px;
+        transition: box-shadow 0.3s ease;
+        background-color: #015B5B;
+        color: white;
+        font-size: 24px;
+    
+     }
+}
+
 
 @media screen and (max-width:915px) {
     .textpara{

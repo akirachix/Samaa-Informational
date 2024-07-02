@@ -1,7 +1,7 @@
 
 
-import Team from "./team";
-import Vision from "./vision";
+import Team from "./Team";
+import Vision from "./Vision";
 
 function App(){
   return(

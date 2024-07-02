@@ -1,10 +1,10 @@
 
 
-import Vision from "./vision";
+import Footer from "./Footer";
 function App(){
   return(
     <div>
-      <Vision/>
+      <Footer/>
     </div>
   )
 }

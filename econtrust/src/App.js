@@ -1,7 +1,6 @@
 
 
-import Mission from "./mission";
-import Vision from "./vision";
+import Mission from "./Mission";
 
 
 function App(){

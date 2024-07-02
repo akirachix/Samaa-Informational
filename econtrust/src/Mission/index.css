@@ -1,0 +1,141 @@
+
+ .textpara{
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+    padding: 80px;
+    /* margin-left: -5%; */
+    max-width: 2800px;
+    transition: box-shadow 0.3s ease;
+    background-color: #015B5B;
+    color: white;
+    font-size: 24px;
+    margin: 0 10%;
+    /* padding-left: 230px; */
+
+ }
+ .mission-texts{
+   text-align: center;
+
+ }
+ .textpara{
+   font-size: 24px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+
+ }
+
+ 
+
+
+@media screen and (min-width:280px) and (max-width:360px) {
+    .textpara{
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+        padding: 5px;
+        margin-left: 4.5%;
+        margin-right: 12px;
+        max-width: 240px;
+        
+    
+     }
+
+     .mission-text{
+        margin-left: 20px;
+     }
+}
+
+
+@media screen and (min-width:375px) and (max-width:440px) {
+    .textpara{
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+        padding: 15px;
+        margin-left: 7.8%;
+        margin-right: 25px;
+        max-width: 700px;
+       
+    
+     }
+
+     .mission-text{
+        margin-left: 50px;
+     }
+
+}
+
+
+@media screen and (min-width:540px) and (max-width:600px) {
+    .textpara{
+        padding: 70px;
+        margin-left: 13%;
+        margin-right: 65px;
+       
+    
+     }
+
+     .mission-text{
+        margin-left: 120px;
+     }
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:828px) {
+    .textpara{
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+        padding: 70px;
+        margin-left: 12%;
+        margin-right: 95.5px;
+       
+    
+     }
+
+     .mission-text{
+        margin-left: 190px;
+     }
+
+}
+
+@media screen and (min-width:912px) and (max-width:1072px) {
+
+ .textpara{
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+    padding: 70px;
+    margin-left: 10.1%;
+    margin-right: 105px;
+    max-width: 700px;
+
+   
+
+ }
+ .mission-text{
+    margin-left: 250px;
+ }
+
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1280px) {
+    .textpara{
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+        padding: 90px;
+        margin-left: 15.5%;
+        max-width: 700px;
+        transition: box-shadow 0.3s ease;
+        background-color: #015B5B;
+        color: white;
+        font-size: 24px;
+    
+     }
+
+}
+

@@ -2,12 +2,12 @@
 
 import Team from "./team";
 import Vision from "./vision";
-import About from "./About";
+
 function App(){
   return(
     <div>
-      <About/>
-      <Vision/>
+      
+      <Vision/><br/>
       <Team/>
     </div>
   )

@@ -33,10 +33,12 @@
         border: 1px solid #ddd;
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
-        padding: 5px;
-        margin-left: 4.5%;
+        padding: 14px;
+        margin-left: 4%;
         margin-right: 12px;
-        max-width: 240px;
+        max-width: 600px;
+        font-size: 15px;
+        text-align: left;
         
     
      }
@@ -52,12 +54,12 @@
         border: 1px solid #ddd;
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
-        padding: 15px;
+        padding: 17px;
         margin-left: 7.8%;
         margin-right: 25px;
         max-width: 700px;
-       
-    
+        font-size: 16px;
+        text-align: left;
      }
 
      .mission-title{
@@ -69,15 +71,18 @@
 
 @media screen and (min-width:540px) and (max-width:600px) {
     .mission-text{
-        padding: 70px;
+        padding: 20px;
+        font-size: 15px;
         margin-left: 13%;
         margin-right: 65px;
+        max-width: 700px;
+
        
     
      }
 
      .mission-title{
-        margin-left: 120px;
+      
      }
 
 }
@@ -88,15 +93,16 @@
         border: 1px solid #ddd;
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
-        padding: 70px;
+        padding: 30px;
         margin-left: 12%;
         margin-right: 95.5px;
+        font-size: 22px;
        
     
      }
 
      .mission-title{
-        margin-left: 190px;
+      text-align: center;
      }
 
 }
@@ -107,35 +113,75 @@
     border: 1px solid #ddd;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
-    padding: 70px;
-    margin-left: 10.1%;
-    margin-right: 105px;
-    max-width: 700px;
+    padding: 50px;
+    margin-left: 15.1%;
+    margin-right: 10px;
+    max-width: 600px;
+    font-size: 21px;
 
    
 
  }
- .mission-title{
-    margin-left: 250px;
- }
 
 }
 
 
-@media screen and (min-width:1200px) and (max-width:1280px) {
+@media screen and (min-width:853px) and (max-width:1280px) {
     .mission-text{
         border: 1px solid #ddd;
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
-        padding: 90px;
-        margin-left: 15.5%;
-        max-width: 700px;
+        padding: 35px;
+        margin-left: 10.1%;
+        max-width: 600px;
         transition: box-shadow 0.3s ease;
         background-color: #015B5B;
         color: white;
-        font-size: 24px;
+        font-size: 20px;
+        text-align: left;
     
      }
 
+     .mission-title{
+      text-align: center;
+   }
 }
+
+@media screen and (min-width:1024px) and (max-width:1366px) {
+   .mission-text{
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+      padding: 50px;
+      max-width: 1800px;
+      transition: box-shadow 0.3s ease;
+      background-color: #015B5B;
+      color: white;
+      font-size: 24px;
+      margin: 0 10%;
+      /* padding-left: 230px; */
+  
+   }
+
+}
+
+@media screen and (min-width:912px) and (max-width:1368px) {
+   .mission-text{
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+      padding: 50px;
+      /* margin-left: -5%; */
+      max-width: 1800px;
+      transition: box-shadow 0.3s ease;
+      background-color: #015B5B;
+      color: white;
+      font-size: 24px;
+      margin: 0 10%;
+      /* padding-left: 230px; */
+  
+   }
+
+}
+
 

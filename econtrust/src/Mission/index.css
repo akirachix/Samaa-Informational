@@ -1,5 +1,5 @@
 
- .textpara{
+ .textparagraph{
     border: 1px solid #ddd;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
@@ -18,7 +18,7 @@
    text-align: center;
 
  }
- .textpara{
+ .textparagraph{
    font-size: 24px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-align: center;
@@ -29,7 +29,7 @@
 
 
 @media screen and (min-width:280px) and (max-width:360px) {
-    .textpara{
+    .textparagraph{
         border: 1px solid #ddd;
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
@@ -68,7 +68,7 @@
 
 
 @media screen and (min-width:540px) and (max-width:600px) {
-    .textpara{
+    .textparagraph{
         padding: 70px;
         margin-left: 13%;
         margin-right: 65px;
@@ -84,7 +84,7 @@
 
 
 @media screen and (min-width:768px) and (max-width:828px) {
-    .textpara{
+    .textparagraph{
         border: 1px solid #ddd;
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
@@ -103,7 +103,7 @@
 
 @media screen and (min-width:912px) and (max-width:1072px) {
 
- .textpara{
+ .textparagraph{
     border: 1px solid #ddd;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
@@ -123,7 +123,7 @@
 
 
 @media screen and (min-width:1200px) and (max-width:1280px) {
-    .textpara{
+    .textparagraph{
         border: 1px solid #ddd;
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(red, green, blue, alpha);

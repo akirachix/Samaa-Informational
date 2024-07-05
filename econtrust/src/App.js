@@ -6,11 +6,9 @@ import Mission from "./Mission";
 function App(){
   return(
     <div>
-    
       <Mission/>
-    <div/>
-    )
-    
 
+    </div>
+  )
 }
 export default App;

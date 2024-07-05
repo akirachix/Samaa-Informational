@@ -1,5 +1,5 @@
 
- .textparagraph{
+ .mission-text{
     border: 1px solid #ddd;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
@@ -14,11 +14,11 @@
     /* padding-left: 230px; */
 
  }
- .mission-texts{
+ .mission-title{
    text-align: center;
 
  }
- .textparagraph{
+ .mission-text{
    font-size: 24px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-align: center;
@@ -29,7 +29,7 @@
 
 
 @media screen and (min-width:280px) and (max-width:360px) {
-    .textparagraph{
+    .mission-text{
         border: 1px solid #ddd;
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
@@ -41,14 +41,14 @@
     
      }
 
-     .mission-text{
+     .mission-title{
         margin-left: 20px;
      }
 }
 
 
 @media screen and (min-width:375px) and (max-width:440px) {
-    .textpara{
+    .mission-text{
         border: 1px solid #ddd;
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
@@ -60,7 +60,7 @@
     
      }
 
-     .mission-text{
+     .mission-title{
         margin-left: 50px;
      }
 
@@ -68,7 +68,7 @@
 
 
 @media screen and (min-width:540px) and (max-width:600px) {
-    .textparagraph{
+    .mission-text{
         padding: 70px;
         margin-left: 13%;
         margin-right: 65px;
@@ -76,7 +76,7 @@
     
      }
 
-     .mission-text{
+     .mission-title{
         margin-left: 120px;
      }
 
@@ -84,7 +84,7 @@
 
 
 @media screen and (min-width:768px) and (max-width:828px) {
-    .textparagraph{
+    .mission-text{
         border: 1px solid #ddd;
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
@@ -95,7 +95,7 @@
     
      }
 
-     .mission-text{
+     .mission-title{
         margin-left: 190px;
      }
 
@@ -103,7 +103,7 @@
 
 @media screen and (min-width:912px) and (max-width:1072px) {
 
- .textparagraph{
+ .mission-text{
     border: 1px solid #ddd;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
@@ -115,7 +115,7 @@
    
 
  }
- .mission-text{
+ .mission-title{
     margin-left: 250px;
  }
 
@@ -123,7 +123,7 @@
 
 
 @media screen and (min-width:1200px) and (max-width:1280px) {
-    .textparagraph{
+    .mission-text{
         border: 1px solid #ddd;
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(red, green, blue, alpha);

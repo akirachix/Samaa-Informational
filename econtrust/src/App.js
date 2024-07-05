@@ -1,10 +1,12 @@
 
-import About from "./About";
+
+import Mission from "./Mission";
+
+
 function App(){
   return(
     <div>
-      <About/>
-     
+      <Mission/>
 
     </div>
   )

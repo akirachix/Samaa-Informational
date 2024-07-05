@@ -7,7 +7,7 @@ const Services = () => {
       <div className="services">
         <div className="savings">
           <div className="saving-section">
-            We will have mobile app for farmers and a dashboard for VSLA. By
+            We have mobile app for farmers and a dashboard for VSLA. By
             providing a web app and dashboard that integrates with VSLA,
             EconTrust will give farmers complete access to their records,
             savings, loans, and finiacial literacy.An AI-powered credit scoring
@@ -37,7 +37,7 @@ const Services = () => {
         </div>
         <div className="record-keeping">
           <div className="records-section">
-            We will have mobile app for farmers and a dashboard for VSLA. By
+            We have mobile app for farmers and a dashboard for VSLA. By
             providing a web app and dashboard that integrates with VSLA,
             EconTrust will give farmers complete access to their records,
             savings, loans, and finiacial literacy.Your strategy should aim to

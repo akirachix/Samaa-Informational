@@ -5,13 +5,13 @@
      margin-top: -12%;
  }
  #team{
-     background-color: #006261;
+     background-color: #015B5B;
      width: 100%;
 
  }
  #team-photos{
      display: flex;
-     gap:1.9%;
+     gap:1.5%;
      height: 300px;
  }
 
@@ -27,7 +27,7 @@
   
  }
  h1{
-    color: #006261;
+    color: #015B5B;
     font-size: 36px;
     text-align: center;
 }

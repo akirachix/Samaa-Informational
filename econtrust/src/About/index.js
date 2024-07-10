@@ -3,8 +3,8 @@ import './index.css';
 function About(){
     return(
         <>
-       <div>
-            <h1>About Us</h1>
+       <div >
+            <h1 id='header'>About Us</h1>
             </div>
             <div id="aboutus">
             <p>EconTrust, is an innovative financial tool

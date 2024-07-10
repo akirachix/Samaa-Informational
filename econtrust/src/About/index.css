@@ -1,133 +1,98 @@
 
-h1{
-    text-align: center;
-    color: #006261;
-    margin-right: 4%;
-}
-
- #aboutus{
- 
-  padding: 100px;
-  background-color: #006261;
-  border-radius: 20px;
-  font-size: 24px;
-max-width: 2800px;
+#aboutus{
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+  padding: 80px;
+  max-width: 2800px;
+  transition: box-shadow 0.3s ease;
+  background-color: #015B5B;
   color: white;
-margin: 0 10%;
-  
+  font-size: 24px;
+  margin: 0 10%;
+
+
 }
-
-
-
-
-
-@media  screen and (min-width:375px) and(max-width:667px){
-  #aboutus{
-  font-size: small;
-   max-width: 500px;
-  }
-  p{
-    font-size: 15px;
-  }
-  
-}
-
-@media screen and (max-width:896px) {
-    #aboutus{
-   padding: 30px;
-   margin-left: 10%;
-   margin-right: 16%;
-   font-size: 20px;
-    }
-    h1{
-      margin-right: 4%;
-    }
-  }
-  @media screen and (max-width:844px) {
-    #aboutus{
-   padding: 30px;
-   margin-left: 10%;
-   margin-right: 10%;
-    }
-    p{
-      font-size: 13px;
-      text-align: left;
-    }
-    h1{
-      margin-right: 4%;
-    }
-  }
-  @media screen and (max-width:740px) {
-    #aboutus{
-   padding: 15px;
-   margin: 15px;
-   margin-left: 8%;
-   margin-right: 8%;
-   font-size: 20px;
-    }
-    h1{
-      margin-right: 4%;
-    }
-  }
-  @media screen and (max-width:1366px) {
-    #aboutus{
-   padding: 30px;
-   margin-left: 20%;
-   margin-right: 20%;
-   font-size: 20px;
-    }
-    h1{
-      margin-right: 4%;
-    }
-    p{
-      font-size: 14px;
-    }
-  }
-
-   @media screen and (max-width:1366px) {
-    #aboutus{
+#header{
  text-align: center;
-   margin-left: 8%;
-   margin-right: 8%;
-   font-size: 26px;
-    }
-    h1{
-      margin-right: 4%;
-    }
-  } 
+
+}
 
 
- @media screen and (min-width:800px) and (max-width:1280px){
-    #aboutus{
-    padding: 30px; 
-    margin-left: 14%;
- margin-right: 12%;
- max-width: 600%;
-    }
-    p{
-      font-size: 17px;
-      text-align: center;
-    }
-    h1{
-      margin-right: 4%;
-    }
-  }   
 
- @media screen and (min-width:820px) and (max-width:1180px) {
+@media  (max-width:280px)  {
   #aboutus{
-    margin-left: 16%;
-    margin-right: 17%;
-    font-size: smaller;
+    padding: 20px;
+    margin:0 5%;
+    font-size: 13px;
+   }
+ #header{
+  font-size: 28px;
+ }
+   p{
+    text-align: left;
   }
-  
-} 
-
-@media screen and (min-width:768px){
+}
+@media screen and (min-width:300px) and (max-width:500px) {
+  #aboutus{
+    padding: 30px;
+    margin: 4%;
+    max-width: 1000px;
+    font-size: medium;
+   }
+ #header{
+  font-size: 28px;
+ }
+   p{
+    text-align: left;
+  }
+}
+@media screen and (min-width:500px) and (max-width:800px) {
+  #aboutus{
+    padding: 40px;
+    margin: 5%;
+    max-width:100%;
+    font-size:large;
+   }
+   #header{
+   font-size: 28px;
+   }
+   p{
+    text-align: left;
+  }
+}
+@media screen and (min-width:800px) and (max-width:1000px) {
+#aboutus{
+    padding: 40px;
+    margin: 4%;
+    max-width:100%;
+    font-size: larger;
+   }
+  #header{
+    font-size: 28px;
+   }
+   p{
+    text-align: left;
+  }
+}
+@media screen and (min-width:1024px) and (max-width:1300px) {
+#aboutus{
+     padding: 40px;
+      margin: 5%;
+      max-width:100%;
+      font-size:larger;
+}
+#header{
+ font-size: 28px;
+}
 p{
-  font-size: 20px;
+ text-align: left;
+}
 }
 
+
+
+
   
-}
 
 

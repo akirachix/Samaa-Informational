@@ -1,10 +1,9 @@
 
  .mission-text{
     border: 1px solid #ddd;
-    border-radius: 20px;
+    border-radius: 25px;
     box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
     padding: 80px;
-    /* margin-left: -5%; */
     max-width: 2800px;
     transition: box-shadow 0.3s ease;
     background-color: #015B5B;
@@ -19,169 +18,83 @@
 
  }
  .mission-text{
-   font-size: 24px;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 21.2px;
    text-align: center;
 
  }
 
  
-
-
-@media screen and (min-width:280px) and (max-width:360px) {
-    .mission-text{
-        border: 1px solid #ddd;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
-        padding: 14px;
-        margin-left: 4%;
-        margin-right: 12px;
-        max-width: 600px;
-        font-size: 15px;
-        text-align: left;
-        
-    
-     }
-
-     .mission-title{
-        margin-left: 20px;
-     }
-}
-
-
-@media screen and (min-width:375px) and (max-width:440px) {
-    .mission-text{
-        border: 1px solid #ddd;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
-        padding: 17px;
-        margin-left: 7.8%;
-        margin-right: 25px;
-        max-width: 700px;
-        font-size: 16px;
-        text-align: left;
-     }
-
-     .mission-title{
-        margin-left: 50px;
-     }
-
-}
-
-
-@media screen and (min-width:540px) and (max-width:600px) {
-    .mission-text{
-        padding: 20px;
-        font-size: 15px;
-        margin-left: 13%;
-        margin-right: 65px;
-        max-width: 700px;
-
-       
-    
-     }
-
-     .mission-title{
-      
-     }
-
-}
-
-
-@media screen and (min-width:768px) and (max-width:828px) {
-    .mission-text{
-        border: 1px solid #ddd;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
-        padding: 30px;
-        margin-left: 12%;
-        margin-right: 95.5px;
-        font-size: 22px;
-       
-    
-     }
-
-     .mission-title{
-      text-align: center;
-     }
-
-}
-
-@media screen and (min-width:912px) and (max-width:1072px) {
-
- .mission-text{
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
-    padding: 50px;
-    margin-left: 15.1%;
-    margin-right: 10px;
-    max-width: 600px;
-    font-size: 21px;
-
+@media  (max-width:280px)  {
+   .mission-text{
+     padding: 20px;
+     margin:0 5%;
+     font-size: 13px;
+    }
+    .mission-title{
+     font-size: 28px;
    
-
- }
-
-}
-
-
-@media screen and (min-width:853px) and (max-width:1280px) {
+    }
     .mission-text{
-        border: 1px solid #ddd;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
-        padding: 35px;
-        margin-left: 10.1%;
-        max-width: 600px;
-        transition: box-shadow 0.3s ease;
-        background-color: #015B5B;
-        color: white;
-        font-size: 20px;
-        text-align: left;
-    
-     }
-
-     .mission-title{
-      text-align: center;
+     text-align: left;
    }
 }
-
-@media screen and (min-width:1024px) and (max-width:1366px) {
+@media screen and (min-width:300px) and (max-width:500px) {
    .mission-text{
-      border: 1px solid #ddd;
-      border-radius: 20px;
-      box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
-      padding: 50px;
-      max-width: 1800px;
-      transition: box-shadow 0.3s ease;
-      background-color: #015B5B;
-      color: white;
-      font-size: 24px;
-      margin: 0 10%;
-      /* padding-left: 230px; */
-  
+     padding: 30px;
+     margin: 4%;
+     max-width: 1000px;
+     font-size: medium;
+    }
+    .mission-title{
+    font-size: 28px;
+    }
+    .mission-text{
+     text-align: left;
    }
-
 }
-
-@media screen and (min-width:912px) and (max-width:1368px) {
+@media screen and (min-width:500px) and (max-width:800px) {
    .mission-text{
-      border: 1px solid #ddd;
-      border-radius: 20px;
-      box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
-      padding: 50px;
-      /* margin-left: -5%; */
-      max-width: 1800px;
-      transition: box-shadow 0.3s ease;
-      background-color: #015B5B;
-      color: white;
-      font-size: 24px;
-      margin: 0 10%;
-      /* padding-left: 230px; */
-  
+     padding: 40px;
+     margin: 5%;
+     max-width:100%;
+     font-size:large;
+    }
+    .mission-title{
+    font-size: 28px;
+    }
+    .mission-text{
+     text-align: left;
    }
-
 }
+@media screen and (min-width:800px) and (max-width:1000px) {
+   .mission-text{
+     padding: 40px;
+     margin: 4%;
+     max-width:100%;
+     font-size: larger;
+    }
+    .mission-title{
+     font-size: 28px;
+    }
+    .mission-text{
+     text-align: left;
+   }
+}
+@media screen and (min-width:1024px) and (max-width:1300px) {
+.mission-text{
+      padding: 40px;
+       margin: 5%;
+       max-width:100%;
+       font-size:larger;
+}
+.mission-title{
+  font-size: 28px;
+}
+.mission-text{
+  text-align: left;
+}
+}
+
+ 
 
 

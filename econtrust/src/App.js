@@ -1,10 +1,12 @@
 
+import Landingpage from "./Landingpage"
+import Navbar from "./Navbar";
 
-import Vision from "./vision";
 function App(){
   return(
     <div>
-      <Vision/>
+      <Navbar/>
+      <Landingpage/>
     </div>
   )
 }

@@ -1,53 +1,38 @@
+import "./index.css"
+import iconss from '../Images/iconss.png'
+import Chama from '../Images/Chama.jpg'
 
-import './index.css';
-import iconss from '../Images/iconss.png';
-import logo from '../Images/logo.png';
-import chama from '../Images/Chamas.jpeg';
+const LandingPage=()=>{
 
-
-
-const Landingpage = () =>{
     return(
-     <>
-    <div className='landing'>
-        <div id='navbar'>
-    <div id='logo-image'>
-    <img id='logo'src={logo}/>
-    </div>
-        <div className='nav'>
-        <li className='nav'>Home</li>
-        <li className='nav'> About</li>
-        <li className='nav'>Our vision</li>
-        <li className='nav'>Our Mission</li>
-        <li className='nav'>Contacts</li>
+        <>
+        <div className="Text">
+        <div>
+          <p id='paragraph'>Let some elegance<br/>Into your finance</p>
+          <p className="paragraph">
+            Simplify your financial journey with us
+            <br/>
+            <br/>
+            Join us today and experience hassle free saving
+          </p>
         </div>
+        <div>
+        
+        <img  src={Chama} alt="chama" id="chama" />
+
       </div>
-      <div id='first'>
-    <div className='intro'>
-    <h1 className='h1'>Let some elegance</h1>
-       <h1 className='h1'>Into your finance</h1>
-       <p className='p'>Simplify your financial journey with us</p>
-       <p className='p'>Join us today and experience hassle free saving</p>
-    </div>
-    <div>
-        <img id='chama'src={chama}/>
-    </div>
-    </div>
+      </div>
+      <button id="learnmore"><b>Learn more</b></button>
+      <br />
+      <div className='icons'>
+      <img  src={iconss} alt="icons" id="icons" />
 
-       <br></br>
-       <br></br>
+      </div>
 
-       <button className='learnmore'>Learn more</button>
-       <br></br>
-       <br></br>
-       <img id='playstore'src={iconss}/>
-   
+      
+      </>
+    )
 
-    </div>
-    </>
-       )  
-    }
 
-    export default Landingpage;
-    
-
+}
+export default LandingPage

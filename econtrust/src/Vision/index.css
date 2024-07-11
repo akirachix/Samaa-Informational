@@ -12,7 +12,7 @@
     font-size: 24px; 
 }
 h1{
-    color: #006261;
+    color: #015B5B;
     font-size: 36px;
     text-align: center;
 }
@@ -37,9 +37,9 @@ h1{
 
     }
     h1{
-        color: #006261;
-        font-size: 15px;
-        font-size: smaller;
+        color: #015B5B;
+        font-size: 28px;
+       
     }
     #vision {
         text-align:left;
@@ -58,7 +58,7 @@ h1{
     }
     h1{
         
-        font-size: small;
+        font-size: 28px;
     }
     #vision {
         text-align:left;
@@ -78,7 +78,7 @@ h1{
     }
     h1{
       
-        font-size: medium;
+        font-size: 28px;
       
     }
     #vision {
@@ -98,7 +98,7 @@ h1{
     }
     h1{
         
-        font-size: larger;
+        font-size: 28px;
     }
     #vision {
         text-align:left;
@@ -117,7 +117,7 @@ h1{
     }
     h1{
         
-        font-size: x-large;
+        font-size: 28px;
     }
     #vision {
     text-align:left;

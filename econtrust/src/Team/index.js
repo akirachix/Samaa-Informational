@@ -8,7 +8,7 @@ import './index.css';
 const Team = () => {
     return(
       <>
-      <h1 id="team-title">Our Team</h1>
+      <h1 >Our Team</h1>
 <div id="team">
 <div id="team-photos">
      <div >

@@ -2,10 +2,11 @@
 
 .mission-text{
     border: 1px solid #ddd;
-    border-radius: 20px;  
-    box-shadow: 0 4px 8px rgba(20, 14, 14, 0.5); 
+
+    margin:0 10%;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
     padding: 80px;
-    margin: 0 10%;
     max-width: 2800px;
     transition: box-shadow 0.3s ease;
     background-color: #015B5B;
@@ -21,122 +22,85 @@
 
  }
  .mission-text{
-   font-size: 24px;
-   text-align: justify;
+
+   font-size: 21.2px;
+   text-align: center;
+
 
  }
-
- 
-
 
 @media  (max-width:280px)  {
-    .mission-text{
-      padding: 20px;
-      margin:0 5%;
-      font-size: 13px; 
-
-    
-     }
-
-     .mission-title{
-
-      font-size: 15px;
-      font-size: smaller;
-     }
-     .mission-text{
-      text-align: left;
+   .mission-text{
+     padding: 20px;
+     margin:0 5%;
+     font-size: 13px;
+    }
+    .mission-title{
+     font-size: 28px;
    
     }
+    .mission-text{
+     text-align: left;
+   }
 }
-
-
 @media screen and (min-width:300px) and (max-width:500px) {
-    .mission-text{
-      padding: 30px; 
-      margin: 4%;
-      max-width: 1000px; 
-      font-size: medium; 
-       
-    
-     }
-
-     .mission-title{
-      font-size: small;
-     }
-     .mission-text{
-      text-align: left;
-   
+   .mission-text{
+     padding: 30px;
+     margin: 4%;
+     max-width: 1000px;
+     font-size: medium;
     }
-
+    .mission-title{
+    font-size: 28px;
+    }
+    .mission-text{
+     text-align: left;
+   }
 }
-
-
 @media screen and (min-width:500px) and (max-width:800px) {
-    .mission-text{
-      padding: 40px; 
-      margin: 5%;
-      max-width:100%; 
-      font-size:large;
-       
-    
-     }
-
-     .mission-title{
-      font-size: medium;
-     }
-     .mission-text{
-      text-align: left;
-   
+   .mission-text{
+     padding: 40px;
+     margin: 5%;
+     max-width:100%;
+     font-size:large;
     }
-
+    .mission-title{
+    font-size: 28px;
+    }
+    .mission-text{
+     text-align: left;
+   }
 }
-
-
 @media screen and (min-width:800px) and (max-width:1000px) {
-    .mission-text{
-      padding: 40px; 
-      margin: 4%;
-      max-width:100%; 
-      font-size: larger; 
-       
-    
-     }
-
-     .mission-title{
-      font-size: larger;
-     }
-     .mission-text{
-      text-align: left;
-   
+   .mission-text{
+     padding: 40px;
+     margin: 4%;
+     max-width:100%;
+     font-size: larger;
     }
-
-
-
+    .mission-title{
+     font-size: 28px;
+    }
+    .mission-text{
+     text-align: left;
+   }
 }
-
 @media screen and (min-width:1024px) and (max-width:1300px) {
-
- .mission-text{
-       padding: 40px; 
-        margin: 5%;
-        max-width:100%; 
-        font-size:larger;
-
-   
-
- }
- .mission-title{
-   font-size: x-large;
- }
- .mission-text{
-   text-align: left;
-
- }
-
-
+.mission-text{
+      padding: 40px;
+       margin: 5%;
+       max-width:100%;
+       font-size:larger;
+}
+.mission-title{
+  font-size: 28px;
+}
+.mission-text{
+  text-align: left;
+}
 }
 
-
+ 
 
 
 

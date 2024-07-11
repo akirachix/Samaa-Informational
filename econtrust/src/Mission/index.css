@@ -1,12 +1,36 @@
-
+.mission-text{
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+  padding: 80px;
+  max-width: 2800px;
+  transition: box-shadow 0.3s ease;
+  background-color: #015B5B;
+  color: white;
+  font-size: 24px;
+  margin: 0 10%;
+  /* padding-left: 230px; */
+}
+.mission-title{
+ text-align: center;
+ color: #015B5B;
+}
+.mission-text{
+ font-size: 21.2px;
+ text-align: center;
+}
  
 
  
 @media  (max-width:280px)  {
    .mission-text{
-     padding: 20px;
+    padding: 5%;
      margin:0 5%;
      font-size: 13px;
+     width: 88%;
+     margin-left: 1.6%;
+
+
     }
     .mission-title{
      font-size: 28px;
@@ -20,7 +44,7 @@
    .mission-text{
      padding: 30px;
      margin: 4%;
-     max-width: 1000px;
+     width: 88%;
      font-size: medium;
     }
     .mission-title{

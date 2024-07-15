@@ -3,7 +3,7 @@
   border-radius: 25px;
   box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
   padding: 80px;
-  max-width: 2800px;
+  max-width: 3900px;
   transition: box-shadow 0.3s ease;
   background-color: #015b5b;
   color: white;
@@ -18,7 +18,7 @@
 @media (max-width: 280px) {
   #aboutus {
     padding: 5%;
-    margin: 0 5%;
+    margin-left: 1%;
     font-size: 13px;
     width: 88%;
   }
@@ -29,10 +29,11 @@
     text-align: left;
   }
 }
+
 @media screen and (min-width: 300px) and (max-width: 500px) {
   #aboutus {
     padding: 5%;
-    margin: 4%;
+    margin-left: 1%;
     width: 88%;
     font-size: medium;
   }
@@ -45,10 +46,10 @@
 }
 @media screen and (min-width: 500px) and (max-width: 800px) {
   #aboutus {
-    padding: 40px;
-    margin: 5%;
-    max-width: 100%;
+    padding: 30px;
+    margin-left: 1.5%;
     font-size: large;
+    width: 88%;
   }
   #header {
     font-size: 28px;
@@ -60,7 +61,7 @@
 @media screen and (min-width: 800px) and (max-width: 1000px) {
   #aboutus {
     padding: 40px;
-    margin: 4%;
+    margin: 2%;
     max-width: 100%;
     font-size: larger;
   }

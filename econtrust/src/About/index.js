@@ -4,7 +4,7 @@ function About(){
     return(
         <>
         <div id='about' >
-       <div >
+       
             <h1 id='header'>ABOUT US</h1>
             </div>
             <div id="aboutus">
@@ -14,7 +14,6 @@ function About(){
             intuitive and user-friendly. At its core, EconTrust is designed to empower individuals and families to take control of their finances,
              offering a comprehensive platform to manage, monitor, and grow their savings effectively.</p>
                 <div>
-        </div>
         </div>
         </div>
         </>

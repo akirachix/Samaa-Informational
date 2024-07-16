@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding-right: 50px;
-    background-color: #026857;
+    background-color: #015B5B;
     font-size: 20px;
   }
   
@@ -95,7 +95,7 @@
       left: 0;
       width: 89.5%;
       height: 110%;
-      background-color:#39877a;
+      background-color:#015B5B;
       z-index: 1;
       /* padding: 1.9rem; */
   
@@ -164,7 +164,7 @@
       left: 0;
       width: 88%;
       height: 97%;
-      background-color:#39877a;
+      background-color:#015B5B;
       z-index: 1;
       padding: 2rem;
       gap: 130px;
@@ -232,7 +232,7 @@
       left: 0;
       width: 90%;
       height: 95%;
-      background-color:#39877a;
+      background-color:#015B5B;
       z-index: 1;
       padding: 1 rem;
     }
@@ -296,7 +296,7 @@
       width: 92.6%;
       height: 108%;
       text-align: center;
-      background-color: #39877a;
+      background-color: #015B5B;
       z-index: 1;
       /* padding: 1rem; */
     }
@@ -331,7 +331,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 1rem;
-      background-color: #026857;
+      background-color: #015B5B;
     }
     #logo {
       width: 100px;
@@ -360,7 +360,7 @@
         font-size: xx-large;
         text-align: center;
         height: 93%;
-        background-color: #39877a;
+        background-color: #015B5B;
         z-index: 1;
         gap: 150px;
         padding: 1rem;
@@ -401,7 +401,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 1rem;
-      background-color: #026857;
+      background-color: #015B5B;
     }
   
     .nav {
@@ -424,7 +424,7 @@
       text-align: center;
       height: 99%;
       width: 96%;
-      background-color: #39877a;
+      background-color: #015B5B;
       z-index: 1;
       gap: 200px;
       padding: 4rem;
@@ -460,7 +460,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 1rem;
-      background-color: #026857;
+      background-color: #015B5B;
     }
   
     .nav {
@@ -483,7 +483,7 @@
       text-align: center;
       height: 99%;
       width: 100%;
-      background-color: #39877a;
+      background-color: #015B5B;
       z-index: 1;
       padding: 1rem;
     }
@@ -522,7 +522,7 @@
       display: flex;
       align-items: center;
       padding: 0rem;
-      background-color: #026857;
+      background-color: #015B5B;
     }
      .nav {
       display: flex;
@@ -559,7 +559,7 @@
       justify-content: space-between;
       align-items: center;
       padding:9px;
-      background-color: #026857;
+      background-color: #015B5B;
     }
      .nav {
       display: flex;
@@ -632,7 +632,7 @@
       margin-left: -10%;
      
       height:120% ;
-      background-color: #39877a;
+      background-color: #015B5B;
       z-index: 1;
       padding: 1rem;
       font-weight: bold;

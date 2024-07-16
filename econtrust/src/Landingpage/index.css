@@ -1,13 +1,18 @@
-body {
+/* body {
   background-color: #015B5B;
   margin: 0;
   padding: 0;
-}
+} */
 
+.landingpage{
+  background-color: #015B5B;
+
+}
 #logobrand{
   color: white;
   padding-top: 10px;
 }
+
 
 .Text {
   display: flex;
@@ -237,14 +242,18 @@ body {
   .Text {
     flex-direction: column;
     align-items: center;
-    padding: 0rem;
+    /* padding: 0rem; */
+    
+  }
+  .landingpage{
+    width: 138.7%;
   }
 
   #chama {
-    width: 100%;
-    margin-left:7%;
-    margin: 0%;
+    width: 140%;
     height: 300px;
+    margin-left: -19%;
+    object-fit: cover;
   }
 
   #learnmore {
@@ -254,20 +263,20 @@ body {
   }
   #paragraph{
     padding-bottom: 0px;
-    font-size: 44px;
-    padding-left: 0px;
+    font-size: 50px;
+    padding-left: 10px;
     font-weight: bolder;
-    margin-left: 5%;
+    margin-left: -5%;
    
   }
   .paragraph{
-    font-size: 24px;
+    font-size: 28px;
     padding-left: 0px;
     font-weight: 400;
-    margin-left: 5%;
+    margin-left: -3%;
   }
   .icons{
-    margin-left: 0.7%;
+    margin-left: 2.5%;
   }
   #logo{
     margin-left: 10px;
@@ -280,37 +289,40 @@ body {
     align-items: center;
     padding: 2rem;
   }
-
+.landingpage{
+  width: 133.5%;
+}
   #chama {
+     /* margin:-30%; */
+    width: 155%;
+    height: 370px;
+    margin-left: -28%;
+
+    margin-top: 10%;
     object-fit: cover;
-     margin:-18%;
-    width: 135%;
-    height: 320px;
-    margin-top: 0%;
-    
   }
 
   #learnmore {
     margin-top: 5rem;
-    margin-left: 7%;
+    margin-left: 8%;
 
     
   }
   #paragraph{
-    padding-bottom: -10px;
-    font-size: 48px;
-    padding-left: 0px;
+    padding-bottom: 20px;
+    font-size: 60px;
+    padding-left: 10px;
     font-weight: bolder;
-    margin-left: -9%;
+    margin-left: -7%;
    
   }
   .paragraph{
-    font-size: 24px;
+    font-size: 35px;
     /* padding-left: 0px; */
-    margin-left: -16%;
+    margin-left: -11%;
   }
   .icons{
-    margin-left: 2%;
+    margin-left: 3.5%;
   }
  
 }

@@ -139,9 +139,10 @@ h3 {
     /* width: 99%; */
   }
   h3 {
-    text-align: center;
+    /* text-align: center; */
     color: #005a5a;
     font-size: 30px;
+    margin-left: 190px;
   }
   .savings {
     display: flex;
@@ -153,10 +154,10 @@ h3 {
     padding: 40px;
     margin-left: 1%;
     font-size: large;
-    width: 84%;
+    width: 123%;
   }
   .savings-img {
-    width: 95%;
+    width: 137%;
     height: 40%;
     margin-top: 5%;
     object-fit: contain;
@@ -171,10 +172,10 @@ h3 {
     padding: 40px;
     margin-left: 1%;
     font-size: large;
-    width: 84%;
+    width: 123%;
   }
   .loan-img {
-    width: 95%;
+    width: 123%;
     height: 40%;
     margin-top: 5%;
     object-fit: contain;
@@ -188,10 +189,10 @@ h3 {
     padding: 40px;
     margin-left: 1%;
     font-size: large;
-    width: 84%;
+    width: 123%;
   }
   .records-img {
-    width: 99%;
+    width: 137%;
     height: 40%;
     margin-top: 5%;
     object-fit: contain;
@@ -273,7 +274,7 @@ h3 {
 @media screen and (min-width: 761px) and (max-width: 880px) {
   .services {
     margin-left: -1.5%;
-    width: 98%;
+    width: 132%;
   }
   h3 {
     text-align: center;

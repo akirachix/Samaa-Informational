@@ -1,24 +1,25 @@
 
 import Landingpage from "./Landingpage";
 import Navbar from "./Navbar";
+
+import About from "./About";
+import Services from "./Services";
 import Mission  from "./Mission";
 import Vision from "./Vision";
-import About from "./About";
+
 import Team from "./Team"
-import Services from "./Services";
-import Team from "./Team";
-import Vision from "./Vision";
-import About from "./About";
-import Mission from "./Mission"
 function App(){
   return(
     <div>
       <Navbar/>
       <Landingpage/>
       <About/>
+      <Services/>
+
       <Mission/>
       <Vision/>
       <Team/>
+      
  </div>
   );
 }

@@ -6,6 +6,7 @@ const LandingPage=()=>{
 
     return(
         <>
+        <div className="landingpage">
         <div className="Text">
         <div>
           <p id='paragraph'>Let some elegance<br/>Into your finance</p>
@@ -29,7 +30,7 @@ const LandingPage=()=>{
 
       </div>
 
-      
+      </div>
       </>
     )
 

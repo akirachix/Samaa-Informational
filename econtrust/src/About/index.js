@@ -3,6 +3,7 @@ import './index.css';
 function About(){
     return(
         <>
+        <div id='about' >
        <div >
             <h1 id='header'>ABOUT US</h1>
             </div>
@@ -15,7 +16,7 @@ function About(){
                 <div>
         </div>
         </div>
-       
+        </div>
         </>
     )
 }

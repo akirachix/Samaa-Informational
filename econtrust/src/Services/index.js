@@ -3,6 +3,7 @@ import "./index.css";
 const Services = () => {
   return (
     <>
+    <div id="services">
       <h3 className="intro">SERVICES</h3>
       <div className="services">
         <div className="savings">
@@ -50,6 +51,7 @@ const Services = () => {
             className="records-img"
           />
         </div>
+      </div>
       </div>
     </>
   );

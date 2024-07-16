@@ -57,7 +57,9 @@
    .hamburger.active span:nth-child(3) {
     transform: rotate(-45deg) translate(10px, -5px);
   }
-  
+  html{
+    scroll-behavior: smooth;
+  }
   
   /* Small screens (320px to 480px) */
   @media screen and (min-width: 320px) and (max-width: 390px) {

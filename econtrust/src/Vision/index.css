@@ -70,9 +70,9 @@ h1{
 @media screen and (min-width:500px)and (max-width: 800px) {
     #vision {
         padding: 30px;
-        margin-left: 3%;
+        margin-left: 1.5%;
         font-size: large;
-        width: 85%; 
+        width: 680px; 
     }
     h1{
       

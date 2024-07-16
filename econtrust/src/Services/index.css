@@ -300,7 +300,6 @@ h3 {
     margin-left: 3.5%;
 
   }
-
   .loans {
     display: flex;
     padding: 0px;
@@ -310,17 +309,14 @@ h3 {
     padding: 16px;
     width: 95%;
     font-size: 20px;
-    margin-left: 2.5%;
+    margin-left: 2.8%;
     padding: 16px;
-
-
-  
   }
   .loan-img {
     width: 96%;
     height: 80%;
     object-fit: contain;
-    margin-left: 3.5%;
+    margin-left: 3.2%;
 
   }
   .record-keeping {
@@ -332,7 +328,7 @@ h3 {
     padding: 16px;
     width: 95%;
     font-size: 20px;
-    margin-left: 3.5%;
+    margin-left: 2.8%;
   }
   .records-img {
     width: 96%;
@@ -429,7 +425,7 @@ h3 {
   .saving-section {
     padding: 40px;
     margin: 5%;
-    max-width: 100%;
+    width: 430px;
     font-size: medium;
   }
   .savings-img {
@@ -448,7 +444,7 @@ h3 {
   .loan-section {
     padding: 40px;
     margin: 5%;
-    max-width: 100%;
+    width: 430px;
     font-size: medium;
   }
   .loan-img {
@@ -466,7 +462,7 @@ h3 {
   .records-section {
     padding: 40px;
     margin: 5%;
-    width: 100%;
+    width: 430px;
     font-size: medium;
   }
   .records-img {
@@ -495,7 +491,7 @@ h3 {
     padding: 40px;
     margin-left: -2%;
     width: 1000px;
-    font-size: medium;
+    font-size: 20px;
   }
   .savings-img {
     width: 39%;
@@ -514,7 +510,7 @@ h3 {
     padding: 40px;
     margin-right: -3%;
     width: 1000px;
-    font-size: medium;
+    font-size: 20px;
   }
   .loan-img {
     width: 39%;
@@ -532,7 +528,7 @@ h3 {
     padding: 40px;
     margin-left: -2%;
     width: 1000px;
-    font-size: medium;
+    font-size: 20px;
   }
   .records-img {
     width: 39%;

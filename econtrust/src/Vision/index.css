@@ -28,12 +28,10 @@ h1{
    
     #vision{
       
-        padding: 20px;
-        margin:0 5%;
-        
-
-      
-        font-size: 13px; 
+        padding: 5%;
+        margin-left: 1%;
+        font-size: 13px;
+        width: 88%;
 
     }
     h1{
@@ -52,8 +50,8 @@ h1{
 @media screen and (min-width:300px) and  (max-width:500px) {
     #vision {
         padding: 30px; 
-        margin: 4%;
-        max-width: 1000px; 
+        margin-left: 1%;
+        width: 81%;
         font-size: medium; 
     }
     h1{
@@ -71,10 +69,10 @@ h1{
 }
 @media screen and (min-width:500px)and (max-width: 800px) {
     #vision {
-        padding: 40px; 
-        margin: 5%;
-        max-width:100%; 
-        font-size:large; 
+        padding: 30px;
+        margin-left: 1.5%;
+        font-size: large;
+        width: 680px; 
     }
     h1{
       
@@ -92,8 +90,8 @@ h1{
 @media screen and (min-width:800px)and (max-width: 1000px) {
     #vision {
         padding: 40px; 
-        margin: 4%;
-        max-width:100%; 
+        margin: 1%;
+        max-width:1050%; 
         font-size: larger; 
     }
     h1{

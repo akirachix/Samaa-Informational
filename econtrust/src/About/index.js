@@ -4,7 +4,7 @@ function About(){
     return(
         <>
        <div >
-            <h1 id='header'>About Us</h1>
+            <h1 id='header'>ABOUT US</h1>
             </div>
             <div id="aboutus">
             <p>EconTrust, is an innovative financial tool

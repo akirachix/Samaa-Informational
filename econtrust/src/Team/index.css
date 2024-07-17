@@ -27,7 +27,7 @@
   
  }
  h1{
-    color: #015B5B;
+    color:white;
     font-size: 36px;
     text-align: center;
 }
@@ -233,7 +233,7 @@ h1{
         align-items: center;
         height: auto;
         gap: 0%;
-        margin-left: 127px; 
+        margin-left: 75px; 
         padding-top: 20px;
      
   }
@@ -241,7 +241,7 @@ h1{
     height: 250px;
 }
 #team {
-    width: 100%;
+    width: 138.5%;
 }
 #figcap-text{
   font-size: medium;
@@ -274,7 +274,7 @@ h1{
     height: 250px;
 }
 #team {
-    width: 100%;
+    width: 133.5%;
 }
 #figcap-text{
   font-size: medium;

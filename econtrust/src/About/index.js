@@ -3,7 +3,8 @@ import './index.css';
 function About(){
     return(
         <>
-       <div >
+        <div id='about' >
+       
             <h1 id='header'>ABOUT US</h1>
             </div>
             <div id="aboutus">
@@ -15,7 +16,6 @@ function About(){
                 <div>
         </div>
         </div>
-       
         </>
     )
 }

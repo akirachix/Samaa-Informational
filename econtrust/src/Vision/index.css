@@ -35,7 +35,7 @@ h1{
 
     }
     h1{
-        color: #015B5B;
+        color: #9eb3b3;
         font-size: 28px;
        
     }
@@ -57,6 +57,8 @@ h1{
     h1{
         
         font-size: 28px;
+        color: #000;
+
     }
     #vision {
         text-align:left;
@@ -72,12 +74,14 @@ h1{
         padding: 30px;
         margin-left: 1.5%;
         font-size: large;
-        width: 680px; 
+        width: 940px; 
     }
     h1{
       
         font-size: 28px;
       
+        color: #000;
+
     }
     #vision {
         text-align:left;
@@ -97,6 +101,8 @@ h1{
     h1{
         
         font-size: 28px;
+        color: #000;
+
     }
     #vision {
         text-align:left;
@@ -116,6 +122,8 @@ h1{
     h1{
         
         font-size: 28px;
+        color: #000;
+
     }
     #vision {
     text-align:left;

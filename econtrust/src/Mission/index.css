@@ -35,6 +35,7 @@
     }
     .mission-title{
      font-size: 28px;
+     color: #015B5B;
    
     }
     .mission-text{
@@ -50,6 +51,7 @@
     }
     .mission-title{
     font-size: 28px;
+    color: #015B5B;
     }
     .mission-text{
      text-align: left;
@@ -60,10 +62,13 @@
     padding: 30px;
     margin-left: 1.5%;
     font-size: large;
-    width: 680px;
+    width: 122%;
     }
     .mission-title{
     font-size: 28px;
+    color: #015B5B;
+  margin-left: 200px;    
+
     }
     .mission-text{
      text-align: left;
@@ -78,6 +83,8 @@
     }
     .mission-title{
      font-size: 28px;
+     color: #000;
+
     }
     .mission-text{
      text-align: left;
@@ -92,6 +99,8 @@
 }
 .mission-title{
   font-size: 28px;
+  color: #000;
+
 }
 .mission-text{
   text-align: left;

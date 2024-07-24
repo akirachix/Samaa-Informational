@@ -1,0 +1,89 @@
+#aboutus {
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+  padding: 84px;
+  max-width: 3900px;
+  transition: box-shadow 0.3s ease;
+  background-color: #015b5b;
+  color: white;
+  font-size: 24px;
+  margin: 0 11%;
+}
+#header {
+  text-align: center;
+  color: #015b5b;
+}
+
+@media (max-width: 280px) {
+  #aboutus {
+    padding: 5%;
+    margin-left: 1%;
+    font-size: 13px;
+    width: 88%;
+  }
+  #header {
+    font-size: 28px;
+  }
+  p {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  #aboutus {
+    padding: 5%;
+    margin-left: 3%;
+    width: 85%;
+    font-size: medium;
+  }
+  #header {
+    font-size: 28px;
+  }
+  p {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  #aboutus {
+    padding: 30px;
+    margin-left: 1.5%;
+    font-size: large;
+    width: 122%;
+  }
+  #header {
+    font-size: 28px;
+    margin-left: 180px;
+  }
+  p {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  #aboutus {
+    padding: 40px;
+    margin: 2%;
+    max-width: 100%;
+    font-size: larger;
+  }
+  #header {
+    font-size: 28px;
+  }
+  p {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+  #aboutus {
+    padding: 40px;
+    margin: 5%;
+    max-width: 100%;
+    font-size: larger;
+  }
+  #header {
+    font-size: 28px;
+  }
+  p {
+    text-align: left;
+  }
+}

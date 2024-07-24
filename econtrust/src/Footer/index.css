@@ -1,0 +1,309 @@
+.footer{
+ display: flex; 
+ background-color:#015B5B;  
+ margin-top: 10%;
+ /* width:120%; */
+ height: 225px;
+ color: aliceblue;
+ text-align: center;
+
+ 
+
+}
+.eco{
+font-size: 24px;
+ margin-left: 10%;   
+}
+.attributes{
+   font-size: 20px;
+ margin-left: 12%; 
+ /* margin-bottom: ; */
+ align-items: center;
+}
+.pro{
+font-size: 24px;   
+}
+.comp{
+ font-size: 24px;  
+}
+.firm{
+   font-size: 20px;
+margin-left: 16%; 
+align-items: center;   
+}
+.ligal{
+ font-size: 24px;  
+}
+.valid{
+   font-size: 20px;
+margin-left: 19.3%; 
+align-items: center;   
+}
+
+.icons{
+ display: flex; 
+ margin-left: -10%; 
+ margin-top: 3%;
+ gap: 4%;
+ 
+}
+.lon{
+ margin-left: -3%;  
+}
+.us{
+ margin-left: 2%;  
+}
+.icon1{
+   
+ width: 35%; 
+ height: 30%; 
+ margin-top: 5%;
+ gap: 2%;
+ align-items: center;
+
+}
+
+@media only screen and (min-width: 344px) and (max-width: 540px) { 
+
+    .footer{
+      display: flex; 
+      background-color: rgb(5, 85, 77);  
+      /* margin-top: 40%; */
+      width:120%;
+      height:180vh;
+      color: aliceblue;
+      flex-direction: column;
+    text-align: center;
+     
+     }
+     
+     .eco{
+      margin-left: 2%;   
+     }
+     .attributes{
+      margin-left: 2%; 
+      /* margin-bottom: ; */
+     }
+     .firm{
+     margin-left: 1%;    
+     }
+     .valid{
+     margin-left: 2%;    
+     }
+     
+     .icons{
+      display: flex; 
+      flex-wrap: wrap;
+      margin-left: 40%; 
+      margin-top: 3%;
+      gap: 2%;
+      
+     }
+     .icon1{
+      width: 35px; 
+      height: 35px; 
+      margin-top: 5%;
+      gap: 2%;
+      align-items: center;
+     
+     }
+       
+}
+@media only screen and (min-width: 658px) and (max-width: 720px) {
+   .footer{
+ display: flex; 
+ background-color: rgb(9, 246, 33);  
+ /* margin-top: 40%; */
+ /* width:120%; */
+ height: 225px;
+ color: aliceblue;
+ text-align: center;
+
+ 
+
+}
+.eco{
+ margin-left: 12%;   
+}
+.attributes{
+ margin-left: 12%; 
+ /* margin-bottom: ; */
+ align-items: center;
+}
+.firm{
+margin-left: 16%; 
+align-items: center;   
+}
+.valid{
+margin-left: 23%; 
+align-items: center;   
+}
+
+.icons{
+ display: flex; 
+ margin-left: -8%; 
+ margin-top: 3%;
+ gap: 2%;
+ 
+}
+.icon1{
+ width: 70%; 
+ height: 30%; 
+ margin-top: 5%;
+ gap: 2%;
+ align-items: center;
+
+}
+
+}
+
+                     
+                                 
+@media (min-width: 768px) and (max-width: 1021px) {
+               .footer{
+                  display: flex; 
+                  background-color: rgb(5, 85, 77);   
+                  /* margin-top: 40%; */
+                  /* width:120%; */
+                  height: 1400px;
+                  color: aliceblue;
+                  text-align: center;
+                  margin-left: -0.1%;
+                 
+                  
+                 
+                 }
+                 .eco{
+                  margin-left: 41%;
+                 font-size: 24px;
+                    
+                 }
+                 .attributes{
+                  margin-left: -16%;
+                font-size: 20px;
+                margin-top: 18%;
+                  align-items: center;
+                 }
+                 .pro{
+                 font-size: 24px;   
+                 }
+                 .comp{
+                  font-size: 24px;  
+                 }
+                 .firm{
+                  margin-left: -20%; 
+                  margin-top:46%;
+                  font-size: 20px;
+                
+                 align-items: center;   
+                 }
+                 .ligal{
+                  font-size: 24px;  
+                 }
+                 .valid{
+                  margin-left: -16%;
+                  margin-top: 72%;
+                    font-size: 20px;
+                 align-items: center; 
+                 
+                 }
+                 
+                 .icons{
+                  display: flex; 
+                  margin-left: -22%; 
+                  margin-top: 10%;
+                  gap: 4%;
+                  
+                 }
+                 .lon{
+                  margin-left: -3%;  
+                 }
+                 .us{
+                  margin-left: 2%;  
+                 }
+                 .icon1{
+                    
+                  width: 30px; 
+                  height: 30px; 
+                  margin-top: 5%;
+                  gap: 2%;
+                  align-items: center;
+                 
+                 }
+            }
+
+                                 
+                                 
+            @media only screen and (min-width: 1022px) and (max-width: 1366px) {
+               .footer{
+                  display: flex; 
+                  background-color: rgb(5, 85, 77);  
+                  /* margin-top: 40%; */
+                  /* width:120%; */
+                  height: 1995px;
+                  color: aliceblue;
+                  text-align: center;
+                  margin-left: -0.1%;
+                 
+                  
+                 
+                 }
+                 .eco{
+                  margin-left:6%;
+                 font-size: 24px;
+                    
+                 }
+                 .attributes{
+                  margin-left: 14%;
+                font-size: 20px;
+                margin-top: -0.1%;
+                  align-items: center;
+                 }
+                 .pro{
+                 font-size: 24px;   
+                 }
+                 .comp{
+                  font-size: 24px;  
+                 }
+                 .firm{
+                  margin-left:8%; 
+                  margin-top:-0.1%;
+                  font-size: 20px;
+                
+                 align-items: center;   
+                 }
+                 .ligal{
+                  font-size: 24px;  
+                 }
+                 .valid{
+                  margin-left: 7%;
+                  margin-top: 0.1%;
+                    font-size: 20px;
+                 align-items: center; 
+                 
+                 }
+                 
+                 .icons{
+                  display: flex; 
+                  margin-left: -12%; 
+                  margin-top: 8%;
+                  gap: 4%;
+                  
+                 }
+                 .lon{
+                  margin-left: -3%;  
+                 }
+                 .us{
+                  margin-left: 2%;  
+                 }
+                 .icon1{
+                    
+                  width: 30px; 
+                  height: 30px; 
+                  margin-top: 5%;
+                  gap: 2%;
+                  align-items: center;
+                 
+                 }
+            }
+           

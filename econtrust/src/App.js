@@ -8,6 +8,7 @@ import Mission  from "./Mission";
 import Vision from "./Vision";
 
 import Team from "./Team"
+import Footer from "./Footer";
 function App(){
   return(
     <div>
@@ -19,8 +20,10 @@ function App(){
       <Mission/>
       <Vision/>
       <Team/>
+      <Footer/>
       
  </div>
   );
+ 
 }
 export default App;
